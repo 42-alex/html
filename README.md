@@ -5,7 +5,7 @@
 
 ## Examples
 
-### Label and checkbox
+### How to use label and checkbox
 Version #1 (relation by id)
 ```
 <form>
