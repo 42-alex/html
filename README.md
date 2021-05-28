@@ -22,3 +22,22 @@ Version #2 (relation through nesting)
     </label>
 </form>
 ```
+
+### How to use checkbox
+```
+<form>
+    <label>
+        <input type="checkbox" name="languages" value="HTML">
+        I want to learn HTML
+    </label>
+    <label>
+        <input type="checkbox" name="languages" value="CSS">
+        I want to learn CSS
+    </label>
+    <label>
+        <input type="checkbox" name="languages" value="JS">
+        I want to learn JS
+    </label>
+</form>
+```
+Attribute "name" is used to separate our checkboxes group among others and attribute "value" is used to find out which checkboxes were selected.
