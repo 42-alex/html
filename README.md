@@ -3,6 +3,22 @@
 ## Sources for learning
 * https://ru.code-basics.com/languages/html/ (practical tasks)
 
+## HTML5 Tags
+
+### \<audio>
+
+This tag used to add audio on a page
+```
+<audio src="path to audio" controls></audio>
+```
+Different browsers support different audio formats. For this purpose you can use nested tag \<source>
+```
+<audio controls>
+    <source src="https://example.com/audio.mp3">
+    <source src="https://example.com/audio.ogg">
+</audio>
+```
+
 ## Examples
 
 ### How to use label and input checkbox
