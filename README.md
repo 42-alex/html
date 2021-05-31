@@ -108,6 +108,34 @@ Although these blocks may directly relate to the current page, they represent an
 Due to the fact that &lt;article> can be used on its own, it must contain a heading inside it.
 
 ---
+### \<aside   >
+It serves to display information that complements the main text, but is optional.
+Most often this is a section menu, a list of definitions from an article, widgets, etc.
+```
+<header>
+    <!-- header content -->
+</header>
+
+<aside>
+    <nav> <!-- Additional section menu -->
+        <ul>
+            <li><a href="/service-1/">Service 1</a></li>
+            <li><a href="/service-2/">Service 2</a></li>
+            <li><a href="/service-3/">Service 3</a></li>
+        </ul>
+    </nav>
+</aside>
+
+<main>
+    <!-- main content -->
+</main>
+```
+Note that the &lt;aside> is outside the &lt;main> tag.
+This content does not have to be unique on every page.
+It can be unique for each separate section (if we are talking, for example, about the menu).
+If the sidebar is unique for each page, then it should be placed inside the <main> tag.
+
+---
 
 ### \<audio>
 
