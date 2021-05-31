@@ -44,6 +44,18 @@ The unique content of the site. This can be an article, a description of the ser
 ```
 
 ---
+
+### \<footer>
+It has the same styles and properties like &lt;div> but it has a semantic meaning.
+Usually there is contact information, additional menu, legal information about the company.
+```
+<footer>
+  <!-- Site footer (bottom area) -->
+</footer>
+```
+
+---
+
 ### \<audio>
 
 This tag used to add audio on a page
