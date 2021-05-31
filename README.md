@@ -56,6 +56,21 @@ Usually there is contact information, additional menu, legal information about t
 
 ---
 
+### \<nav>
+It is used to contain the main menu of the website. Sometimes a list of product categories is wrapped in a nav tag as well.
+It has a semantic meaning for robots and different devices (screen readers, etc)
+```
+<nav>
+    <ul>
+        <li><a href="/">Главная</a></li>
+        <li><a href="/about">О нас</a></li>
+        <li><a href="/contacts">Контакты</a></li>
+    </ul>
+</nav>
+```
+
+---
+
 ### \<audio>
 
 This tag used to add audio on a page
