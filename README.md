@@ -19,6 +19,28 @@ Different browsers support different audio formats. For this purpose you can use
 </audio>
 ```
 
+### \<video>
+
+This tag used to add video on a page
+```
+<video src="https://example.com/our-video.mp4" controls></video>
+```
+Different browsers support different video formats. For this purpose you can use nested tag \<source>
+```
+<video controls>
+    <source src="https://example.com/our-video.mp4" type="video/mp4">
+    <source src="https://example.com/our-video.webm" type="video/webm">
+    <source src="https://example.com/our-video.ogg" type="video/ogg">
+</video>
+```
+The presence of three formats of a file guarantees that your video will play on all devices. It is also required to have a type attribute that will tell the browser the video format. By this attribute the browser will decide which file to download.
+
+The &lt;video> tag has several important attributes:
+* controls - Adds controls for the video player.
+* autoplay - Auto play after video download.
+* width - The width of the video player.
+* height - The height of the video player.
+
 ## Examples
 
 ### How to use label and input checkbox
