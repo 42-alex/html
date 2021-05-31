@@ -3,6 +3,24 @@
 ## Sources for learning
 * https://ru.code-basics.com/languages/html/ (practical tasks)
 
+---
+
+## Basic markup of HTML page
+```
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic markup of HTML</title>
+</head>
+<body>
+    <h1>Code Basics</h1>
+    <p>Free programming place</p>
+</body>
+</html>
+```
+---
+
 ## HTML5 Tags
 
 ### \<audio>
