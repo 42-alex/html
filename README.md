@@ -85,6 +85,29 @@ Since &lt;section> is a piece of related content (article section, link form, et
 ```
 
 ---
+### \<article   >
+It is intended to mark up a section that can be used on its own and is not structurally tied to a specific page.
+For example, a block with exchange rates, weather, news or article previews.
+Although these blocks may directly relate to the current page, they represent an independent unit that will not lose its meaning if you look at it separately from the context.
+```
+<section class="more">
+    <h2>Read also</h2>
+    <article class="article-block">
+        <h3>Service 1</h3>
+        <p>Description of new service</p>
+        <a href="#">Link to the service</a>
+    </article>
+
+    <article class="article-block">
+        <h3>Service 2</h3>
+        <p>Description of new service</p>
+        <a href="#">Link to the service</a>
+    </article>
+</section>
+```
+Due to the fact that &lt;article> can be used on its own, it must contain a heading inside it.
+
+---
 
 ### \<audio>
 
