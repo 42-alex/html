@@ -33,6 +33,17 @@ Usually it contains a logo, contact information, menu, etc.
 ```
 
 ---
+
+### \<main>
+It has the same styles and properties like &lt;div> but it has a semantic meaning.
+The unique content of the site. This can be an article, a description of the service, data on the page, contacts, a service order form
+```
+<main>
+  <!-- The unique content of the site -->
+</main>
+```
+
+---
 ### \<audio>
 
 This tag used to add audio on a page
