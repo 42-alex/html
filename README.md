@@ -23,6 +23,16 @@
 
 ## HTML5 Tags
 
+### \<header>
+It has the same styles and properties like &lt;div> but it has a semantic meaning which is useful for robots. As a result they can analyze the meaning.
+Usually it contains a logo, contact information, menu, etc.
+```
+<header>
+  <!-- This will be the site header (top area). -->
+</header>
+```
+
+---
 ### \<audio>
 
 This tag used to add audio on a page
