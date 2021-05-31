@@ -71,6 +71,21 @@ It has a semantic meaning for robots and different devices (screen readers, etc)
 
 ---
 
+### \<section   >
+It allows you to mark content related to the main content meaning.
+Inside is the content is directly related to the content of our page, but cannot exist without it.
+Since &lt;section> is a piece of related content (article section, link form, etc.), there is often a heading inside (but it is not a requirement)
+```
+<section class="callback-form">
+    <h2>Submit your application</h2>
+    <form>
+        <!-- Here is the service order form -->
+    </form>
+</section>
+```
+
+---
+
 ### \<audio>
 
 This tag used to add audio on a page
