@@ -175,80 +175,51 @@ The &lt;video> tag has several important attributes:
 
 ## Examples
 
-### How to use label and input checkbox
-Version #1 (relation by id)
-```
-<form>
-    <input id="html" type="checkbox">
-    <label for="html">I want to know HTML well</label>
-</form>
-```
-Version #2 (relation through nesting)
-```
-<form>
-    <label>
-        <input type="checkbox">
-        I want to know HTML well
-    </label>
-</form>
-```
 
-### How to use input checkbox
+### How to use input checkbox with label
 ```
 <form>
-    <label>
-        <input type="checkbox" name="languages" value="HTML">
+    <label for="langues_HTML">
+        <input id="langues_HTML" type="checkbox" name="languages" value="HTML">
         I want to learn HTML
     </label>
-    <label>
-        <input type="checkbox" name="languages" value="CSS">
+    <label for="langues_CSS">
+        <input id="langues_CSS" type="checkbox" name="languages" value="CSS">
         I want to learn CSS
     </label>
-    <label>
-        <input type="checkbox" name="languages" value="JS">
+    <label for="langues_JS">
+        <input id="langues_JS" type="checkbox" name="languages" value="JS">
         I want to learn JS
     </label>
 </form>
 ```
 Attribute "name" is used to separate our checkboxes group among others and attribute "value" is used to find out which checkboxes were selected.
 
-### How to use label and input radio
-Version #1 (relation by id)
+### How to use input radio with label
+Version #1 - preferable (wrapped in "label" tag and relation by id)
 ```
 <form>
-    <input id="radio_yes" type="radio" name="question">
-    <label for="radio_yes">Yes</label>
-    
-    <input id="radio_no" type="radio" name="question">
-    <label for="radio_no">No</label>
-</form>
-```
-Version #2 (relation through nesting)
-```
-<form>
-    <label>
-        <input type="radio" name="question">
+    <label for="radio_yes">
+        <input id="radio_yes" type="radio" name="question" value="yes">
         Yes
     </label>
-    <label>
-        <input type="radio" name="question">
-        No
-    </label>
-</form>
-```
-
-### How to use input radio
-```
-<form>
-    <label>
-        <input type="radio" name="question" value="yes">
-        Yes
-    </label>
-    <label>
-        <input type="radio" name="question" value="no">
+    <label for="radio_no">
+        <input id="radio_no" type="radio" name="question" value="no">
         No
     </label>
 </form>
 ```
 Attribute "name" is used to make the browser understand the relationship between radios. Without "name" attribute it would be possible to choose all radios.
 Attribute "value" is used to find out which particular radio was selected.
+
+Version #2 (relation by id)
+```
+<form>
+    <input id="radio_yes" type="radio" name="question" value="yes">
+    <label for="radio_yes">Yes</label>
+    
+    <input id="radio_no" type="radio" name="question" value="no">
+    <label for="radio_no">No</label>
+</form>
+```
+
